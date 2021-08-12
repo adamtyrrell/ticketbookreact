@@ -4,17 +4,34 @@ body {
 
 }
 
-h1, h2, h3, .card-body>.card-title {
-  font-family: "Lobster", cursive;
-}
 
 .card-title {
   font-weight: 500;
   font-size: 1.25rem;
 }
 
+.card-container {
+  margin-top: 50px;
+}
+
 h2 {
   color: #3046C5;
+}
+
+.card {
+  margin: 10px;
+  padding: 0;
+}
+
+.titles {
+  background-color: #0f283d;
+  color: #fff;
+  padding: .75rem 1.25rem;
+}
+
+
+.loginCard{
+  box-shadow: 3px 3px 5px;
 }
 
 .card-img-overlay .card-title {
@@ -30,9 +47,15 @@ h2 {
 
 .site-footer {
   background-color: #0f283d;
-  padding: 20px 0;
+  position: absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  
 }
 
 .navbar-dark {
   background-color: #0f283d;
+  margin-bottom: 30px;
+  
 }
